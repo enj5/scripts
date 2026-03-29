@@ -13,7 +13,7 @@ W W W W W W W D W W W W W W W
 W W W W W W W D W W W W W W W 
 W                           W 
 W       R           R       W 
-W       R   S   S   R       W 
+W       R   S       R       W 
 D   G                   G   D 
 W       R   S   S   R       W 
 W       R           R       W 
@@ -27,14 +27,14 @@ W                           W
 D     R               R     D 
 W                           W 
 W   S     G H   G H     S   W 
-W                           W 
+W         G                 W 
 W W W W W W W D W W W W W W W 
 [9|15]4
 W W W W W W W D W W W W W W W 
 W                           W 
 W G H     S       S     G H W 
 W                           W 
-D     R     G   G     R     D 
+D     R       S       R     D 
 W                           W 
 W G H     S       S     G H W 
 W                           W 
@@ -64,7 +64,7 @@ W W W W W W W D W W W W W W W
 W                           W 
 W   G       R   R       G   W 
 W       S           S       W 
-D             G             D 
+D                           D 
 W       S           S       W 
 W   G       R   R       G   W 
 W                           W 
