@@ -1,4 +1,3 @@
-```sql
 SELECT index_id, resource_id, 
 resource_name, 
 REPLACE(REPLACE(REPLACE(attribute_name, '@#@', '\n'), '#*#', ';'), '*@*', '\r') AS attribute_name, 
@@ -9,4 +8,3 @@ logged_at
 FROM public.ressource_attribut_valeur
 WHERE value_current LIKE '%\n%';
 --LIMIT 10000;
-```

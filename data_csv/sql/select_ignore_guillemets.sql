@@ -1,4 +1,3 @@
-```sql
 SELECT *
 FROM read_files(
   'abfss://landing@stccddatappfrc001.dfs.core.windows.net/PRISM_ENJ-NYA/attribut_valeur_py.csv',
@@ -9,4 +8,3 @@ FROM read_files(
   quote => '$',
   escape => '$'
 )
-```
