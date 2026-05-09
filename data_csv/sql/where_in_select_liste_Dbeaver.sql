@@ -1,4 +1,3 @@
- ```sql
 SELECT *
 FROM read_files(
   'abfss://landing@stccddatappfrc001.dfs.core.windows.net/PRISM_ENJ-NYA/attribut_valeur_py.csv',
@@ -17,5 +16,3 @@ WHERE Attributs IN (
 	  	sep => ';'
 	)
 ) AND Valeur_new IS NULL AND Valeur_old IS NOT NULL
-
-```

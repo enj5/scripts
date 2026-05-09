@@ -1,4 +1,3 @@
-```sql
 SELECT resource_id, 
 resource_name, 
 REPLACE(REPLACE(REPLACE(snapshot, '\\n', '@#@'), ';', '#*#'), '\\r', '*@*') AS snapshot, 
@@ -15,4 +14,3 @@ FROM read_files(
 )
 WHERE resource_name IN ('product', 'product_model') 
 --LIMIT 10000
-```
